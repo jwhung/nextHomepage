@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- 背景渐变 -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="faceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="suitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 圆形背景 -->
+  <circle cx="100" cy="100" r="100" fill="url(#bgGradient)"/>
+  
+  <!-- 装饰性图案 -->
+  <circle cx="30" cy="40" r="5" fill="#ffffff" fill-opacity="0.3"/>
+  <circle cx="170" cy="50" r="8" fill="#ffffff" fill-opacity="0.2"/>
+  <circle cx="150" cy="160" r="6" fill="#ffffff" fill-opacity="0.2"/>
+  <circle cx="40" cy="150" r="7" fill="#ffffff" fill-opacity="0.3"/>
+  
+  <!-- 人物轮廓 -->
+  <g>
+    <!-- 头部 -->
+    <circle cx="100" cy="75" r="40" fill="url(#faceGradient)"/>
+    
+    <!-- 西装 -->
+    <path d="M60 180c0-33.137 26.863-60 60-60s60 26.863 60 60v20H60v-20z" fill="url(#suitGradient)"/>
+    
+    <!-- 领带 -->
+    <path d="M95 120v60h10v-60z" fill="#4f46e5"/>
+    <path d="M95 120l5 10 5-10z" fill="#4f46e5"/>
+    
+    <!-- 衬衫 -->
+    <path d="M85 120c0 0 15-10 30 0v15h-30z" fill="#f8fafc"/>
+    
+    <!-- 眼睛 -->
+    <ellipse cx="85" cy="70" rx="5" ry="3" fill="#1e293b"/>
+    <ellipse cx="115" cy="70" rx="5" ry="3" fill="#1e293b"/>
+    
+    <!-- 嘴巴 -->
+    <path d="M90
